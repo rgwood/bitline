@@ -4,8 +4,8 @@ watch:
     watch . { cargo run } --glob=**/*.rs
 
 # use watchexec because Nu watch can't kill process to restart it
-watch-serve:
-    watchexec --exts=rs --on-busy-update=restart -- cargo run -- --serve
+watchexec:
+    watchexec --exts=rs --on-busy-update=restart -- cargo run
 
 run:
     cargo run
