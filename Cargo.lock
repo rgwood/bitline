@@ -37,6 +37,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "64cb94155d965e3d37ffbbe7cc5b82c3dd79dd33bd48e536f73d2cfb8d85506f"
 
 [[package]]
+name = "bitline"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "argh",
+ "dialoguer",
+ "hex",
+]
+
+[[package]]
 name = "console"
 version = "0.15.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -70,16 +80,6 @@ name = "hex"
 version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
-
-[[package]]
-name = "hex-viewer"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "argh",
- "dialoguer",
- "hex",
-]
 
 [[package]]
 name = "lazy_static"
