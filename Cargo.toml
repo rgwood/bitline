@@ -10,6 +10,7 @@ anyhow = "1.0.69"
 argh = "0.1.10"
 dialoguer = {version = "0.10.3", default-features = false}
 hex = "0.4.3"
+owo-colors = "3.5.0"
 
 [profile.release]
 lto = true      # Enable Link Time Optimization
